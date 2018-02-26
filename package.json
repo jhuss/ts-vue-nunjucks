@@ -1,0 +1,29 @@
+{
+  "name": "ts-vue-nunjucks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/jhuss/ts-vue-nunjucks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhuss/ts-vue-nunjucks.git"
+  },
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "nunjucks": "^3.1.2",
+    "nunjucks-isomorphic-loader": "^2.0.2",
+    "ts-loader": "^4.0.0",
+    "typescript": "^2.7.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-property-decorator": "^6.0.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.9"
+  }
+}
